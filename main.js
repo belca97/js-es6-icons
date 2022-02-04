@@ -113,7 +113,9 @@ const icons = [
 	}
 ];
 
+// faccio riferimento all'id container dell'html
 const container = document.getElementById('container-icons');
+// uso la funzione putIcons per creare le icone con colori e figure giuste
 putIcons(container, icons)
 
 function putIcons(container, icons){
